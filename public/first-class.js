@@ -18,9 +18,14 @@ const greet = function(salutation){
         return `${salutation} ${name}`
     }
 }
+
+
 const hello = greet('Hello')
 const message = hello('John')
 console.log(message)
+
+
+
 
 
 const numbers = [1,2,3,4,5]
